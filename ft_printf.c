@@ -52,7 +52,3 @@ int	ft_printf(const char *format, ...)
 	va_end(args);
 	return (len_return);
 }
-int main()
-{
-	ft_printf(0);
-}
