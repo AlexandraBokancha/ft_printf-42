@@ -14,13 +14,11 @@
 
 int	ft_find_adress(void *ptr)
 {
-	int					i;
 	int					count;
 	char				*base;
 	unsigned long long	p;
 
 	base = "0123456789abcdef";
-	i = 0;
 	count = 0;
 	p = (unsigned long long)ptr;
 	if (p == 0)
